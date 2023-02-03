@@ -1,5 +1,5 @@
 const t1=false;
-const t2= false;
+const t2= true;
 
 let comprarTv50=t1&&t2;
 console.log("Vou comprar tv de 50pol?",comprarTv50);
