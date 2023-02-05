@@ -1,4 +1,4 @@
-const hora = 18;
+const hora = 6;
 let saudacao;
 
 if (hora >= 6 && hora < 12) {
