@@ -7,7 +7,8 @@ if (hora >= 6 && hora < 12) {
     if (hora >= 12 && hora < 18) {
         saudacao = "Boa tarde!"
     }
-    else //(hora >= 18 && hora < 6)//
+    else {//(hora >= 18 && hora < 6)//
         saudacao = "Boa Noite!"
+    }
 
 console.log(saudacao);
