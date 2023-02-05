@@ -1,23 +1,23 @@
-const nota = 10;
+const nota = 5.5;
 let conceito;
 let msg;
 
 if (nota >= 9 && nota <= 10) {
     msg = "Parabéns! Aprovado! Boas Férias!"
     conceito = "A"
-    console.log(conceito + " " + msg);
+    console.log(conceito + "! " + msg);
 } else if (nota >= 7 && nota < 9) {
     msg = "Muito bom! Aprovado! Boas Férias!"
     conceito = "B"
-    console.log(conceito + " " + msg);
+    console.log(conceito + "! " + msg);
 } else if (nota >= 6 && nota < 7) {
     msg = "bom! Aprovado! Boas Férias!"
     conceito = "C"
-    console.log(conceito + " " + msg);
-} else if (nota >= 4.5 && nota < 5) {
+    console.log(conceito + "! " + msg);
+} else if (nota >= 4.5 && nota < 6) {
     conceito = "D"
     msg = "Fraco! Reprovado! Estude mais nas Férias!"
-    console.log(conceito + " " + msg);
+    console.log(conceito + "! " + msg);
 } else if (nota <= 4.5 && nota >= 0) {
     msg = "Fraco! Reprovado! Estude mais nas Férias! Te vejo novamente!"
     conceito = "F"
