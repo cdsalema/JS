@@ -16,17 +16,18 @@
        </style>
     </header>
     <nav>
-        <a href wm-nav="/JS master/Web/html/texto.html">00 - Teste</a> |
-        <a href wm-nav="/JS master/Web/html/texto1.html">01 - Texto1</a>|
-        <a href wm-nav="/JS master/Web/html/Texto2.html">02 - Texto2</a>
-        <a href wm-nav="/JS master/Web/html/listas.html">03 - listas</a>
-        <a href wm-nav="/JS master/Web/html/ListasAninhadas.html">04 - listas Aninhadas</a>
+        <a href wm-nav="texto.html">00 - Teste</a>|
+        <a href wm-nav="Texto1.html">01 - Texto1</a>|
+        <a href wm-nav="Texto2.html">02 - Texto2</a>|
+        <a href wm-nav="listas.html">03 - listas</a>|
+        <a href wm-nav="ListasAninhadas.html">04 - listas Aninhadas</a>|
+        <a href wm-nav="links.html">05 - links</a>|
+        <a href wm-nav="table.html">06 - Tabela</a>|
+
     </nav>
     <section id="conteudo"></section>
     <footer>
-      
-
-        Curso de WEB Moderno
+             Curso de WEB Moderno
     </footer>
     <script>
         document.querySelectorAll('[wm-nav]').forEach(link=>{
@@ -36,7 +37,6 @@
                 fetch(link.getAttribute('wm-nav'))
                     .then(resp=> resp.text())
                     .then(html=> conteudo.innerHTML=html)
-                
             }
         })
 
