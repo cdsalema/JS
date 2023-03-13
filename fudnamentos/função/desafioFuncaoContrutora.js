@@ -6,3 +6,4 @@ function CriarPessoa(nome) {
 }
 const p1 = new CriarPessoa("Conrado")
 p1.falar()
+
